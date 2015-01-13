@@ -1,6 +1,22 @@
 # cymatics
-A Shotgun fast Introduction into the new universal science discipline cymatics
+Cymatics (from Greek: κῦμα "wave")
+<img src="./medium/Holographic_sound2.jpg" />
+<hr>
+<br>
+A Shotgun fast Introduction into the new universal science discipline Cymatics.
 
+<img src="./medium/all.jpg" />
+
+
+alpha-brainwave
+delta-brainwave
+beta-brainwave
+beta-brainwave-rainbow
+theta-brainwave
+
+recordet with a cymascope.
+
+<br>
 
 
 Form_constant
