@@ -5,7 +5,7 @@ Cymatics (from Greek: κῦμα "wave")
 <br>
 A Shotgun fast Introduction into the new universal science discipline Cymatics.
 
-<img src="./medium/all.jpg" />
+<img src="./all.jpg" />
 
 
 alpha-brainwave
