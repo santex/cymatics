@@ -362,99 +362,31 @@ alt="experience-interactive-cymatik-sub-driver" width="960" height="540" />
 
 			
 	
-
-
-
-<div class="row">
-
-<div class="yui3-skin-sam">
-
-
-
 <div id="doc3" class="yui-t1">
-    
-<div id="bd">
-        
-<div id="yui-main">
-          
-<div class="yui-b">
-                
-<div class="yui-g">
-                    
-<ul>
-                    
-</ul>
-              
+    <div id="bd">
+        <div id="yui-main">
+          <div class="yui-b">
+                <div class="yui-g">
+                    <ul>
+                    </ul>
+              </div>
+            </div>
+      </div>
+      <div class="yui-b" style="display:none;">
+            <ul id="photoList">
+                <li class="all selected"><a href="#">All Photos</a></li>
+                <li id="a_1"><a href="#">Album #1<span>(0)</span></a></li>
+                <li id="a_2"><a href="#">Album #2<span>(0)</span></a></li>
+                <li id="a_3"><a href="#">Album #3<span>(0)</span></a></li>
+                <li id="a_4"><a href="#">Album #4<span>(0)</span></a></li>
+            </ul>
+            <p>Click and drag a photo to an album above. You can also Shift + Click to select and drag multiple photos.</p>
+            <p>Click on an album to view the photos that you added.</p>
+            <p>You can also use the slider at the bottom to adjust the size of the image to help fit them on your screen.</p>
+        </div>
+    </div>
+    <div id="ft" class="loading"><strong></strong><div class="horiz_slider"></div><em></em></div>
 </div>
-            
-</div>
-      
-</div>
-      
-<div class="yui-b" style="display:none;">
-            
-<ul id="photoList">
-                
-<li class="all selected">
-<a href="#">All Photos
-</a>
-</li>
-                
-<li id="a_1">
-<a href="#">Album #1
-<span>(0)
-</span>
-</a>
-</li>
-                
-<li id="a_2">
-<a href="#">Album #2
-<span>(0)
-</span>
-</a>
-</li>
-                
-<li id="a_3">
-<a href="#">Album #3
-<span>(0)
-</span>
-</a>
-</li>
-                
-<li id="a_4">
-<a href="#">Album #4
-<span>(0)
-</span>
-</a>
-</li>
-            
-</ul>
-            
-<p>Click and drag a photo to an album above. You can also Shift + Click to select and drag multiple photos.
-</p>
-            
-<p>Click on an album to view the photos that you added.
-</p>
-            
-<p>You can also use the slider at the bottom to adjust the size of the image to help fit them on your screen.
-</p>
-        
-</div>
-    
-</div>
-    
-<div id="ft" class="loading">
-<strong>
-</strong>
-<div class="horiz_slider">
-</div>
-<em>
-</em>
-</div>
-
-</div>
-
-
 
 <script>
 YUI().use('yql', 'node', 'anim', 'dd', 'dd-plugin', 'dd-drop-plugin', 'slider', 'stylesheet', 'event-delegate', function(Y) {
@@ -596,12 +528,7 @@ YUI().use('yql', 'node', 'anim', 'dd', 'dd-plugin', 'dd-drop-plugin', 'slider', 
                 var url = v.url,
                     //Create the image and the LI
                     
-                    li = Y.Node.create('
-<li class="loading">
-<h2>'+v.name+'
-</h2>
-<img src="' + url + '" title="' + v.name + '">
-</li>'),
+                    li = Y.Node.create('<li class="loading"><h2>'+v.name+'</h2><img src="' + url + '" title="' + v.name + '"></li>'),
                     //Get the image from the LI
                     img = li.get('firstChild');
                 //Append the li to the wrapper
@@ -720,9 +647,7 @@ YUI().use('yql', 'node', 'anim', 'dd', 'dd-plugin', 'dd-drop-plugin', 'slider', 
         //Set the style on the proxy node
         e.target.get('dragNode').setStyles({
             height: '25px', width: '25px'
-        }).set('innerHTML', '
-<span>' + count + '
-</span>');
+        }).set('innerHTML', '<span>' + count + '</span>');
         //Offset the dragNode
         e.target.deltaXY = [25, 5];
     });
