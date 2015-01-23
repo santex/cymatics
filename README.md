@@ -1,5 +1,7 @@
 # cymatics
-Cymatics (from Greek: κῦμα "wave")
+<a href="http://santex.github.io/cymatics" target='_new'>Cymatics (from Greek: κῦμα "wave")</a>
+<br>
+http://santex.github.io/cymatics
 <img src="./medium/Holographic_sound2.jpg" />
 <hr>
 <br>
