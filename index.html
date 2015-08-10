@@ -93,6 +93,7 @@ zoom:110%;
         </div><!-- // grid-gallery -->
       </div>
       <script src="http://santex.github.io/cymatics/assets/js/imagesloaded.pkgd.min.js"></script>
+      <script src="http://santex.github.io/cymatics/assets/js/masonry.pkgd.min.js"></script>
       <script src="http://santex.github.io/cymatics/assets/js/news.js"></script>
       <script src=" http://santex.github.io/cymatics/assets/js/cbpGridGallery.js"></script>
       <script>
@@ -401,8 +402,8 @@ $(document).ready(function() {
 
 
 $.each( photos, function( value ){
-$(".grid").append("<li><figure><img src='"+photos[value].url+"' alt='"+photos[value].name.replace(/(\.jpg|-|_|\/)/g," ")+"' style='width:100%;overflow-y:scroll;max-height:100%;'/>  <figcaption>  <p>"+photos[value].name.replace(/(\.jpg|-|_|\/)/g," ")+"</p>  </figcaption></figure> </li> ");
-$("#slide").append("<li><figure><img src='"+photos[value].url+"' alt='"+photos[value].name.replace(/(\.jpg|-|_|\/)/g," ")+"' style='width:100%;overflow-y:scroll;max-height:100%;'/>  <figcaption>  <p>"+photos[value].name.replace(/(\.jpg|-|_|\/)/g," ")+"</p>  </figcaption></figure> </li> ");
+$(".grid").append("<li><figure><a href='"+photos[value].url+"' target='_blank' style='color:red;font-size:10px;'><img src='"+photos[value].url+"' alt='"+photos[value].name.replace(/(\.jpg|-|_|\/)/g," ")+"' style='width:100%;overflow-y:scroll;max-height:100%;'/> </a> <figcaption>  <p>"+photos[value].name.replace(/(\.jpg|-|_|\/)/g," ")+"</p>  </figcaption></figure> </li> ");
+$("#slide").append("<li><figure><a href='"+photos[value].url+"' target='_blank' style='color:red;font-size:10px;'><img src='"+photos[value].url+"' alt='"+photos[value].name.replace(/(\.jpg|-|_|\/)/g," ")+"' style='width:100%;overflow-y:scroll;max-height:100%;'/> </a> <figcaption>  <p>"+photos[value].name.replace(/(\.jpg|-|_|\/)/g," ")+"</p>  </figcaption></figure> </li> ");
 
 
 });
