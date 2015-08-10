@@ -2,11 +2,11 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
 @font-face {
   font-family: 'bpicons';
-  src:url('/assets/fonts/bpicons/bpicons.eot');
-  src:url('/assets/fonts/bpicons/bpicons.eot') format('embedded-opentype'),
-    url('/assets/fonts/bpicons/bpicons.woff') format('woff'),
-    url('/assets/fonts/bpicons/bpicons.ttf') format('truetype'),
-    url('/assets/fonts/bpicons/bpicons.svg') format('svg');
+  src:url('http://santex.github.io/cymatics/assets/fonts/bpicons/bpicons.eot');
+  src:url('http://santex.github.io/cymatics/assets/fonts/bpicons/bpicons.eot') format('embedded-opentype'),
+    url('http://santex.github.io/cymatics/assets/fonts/bpicons/bpicons.woff') format('woff'),
+    url('http://santex.github.io/cymatics/assets/fonts/bpicons/bpicons.ttf') format('truetype'),
+    url('http://santex.github.io/cymatics/assets/fonts/bpicons/bpicons.svg') format('svg');
   font-weight: normal;
   font-style: normal;
 } /* Made with http://icomoon.io/ */
