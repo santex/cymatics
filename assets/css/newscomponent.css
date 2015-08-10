@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'fontawesome';
-  src:url('/assets/fonts/fontawesome/awesome/fontawesome.eot');
-  src:url('/assets/fonts/fontawesome/awesome/fontawesome.eot') format('embedded-opentype'),
-    url('/assets/fonts/fontawesome/awesome/fontawesome.woff') format('woff'),
-    url('/assets/fonts/fontawesome/awesome/fontawesome.ttf') format('truetype'),
-    url('/assets/fonts/fontawesome/awesome/fontawesome.svg') format('svg');
+  src:url('http://santex.github.io/cymatics/assets/fonts/fontawesome/awesome/fontawesome.eot');
+  src:url('http://santex.github.io/cymatics/assets/fonts/fontawesome/awesome/fontawesome.eot') format('embedded-opentype'),
+    url('http://santex.github.io/cymatics/assets/fonts/fontawesome/awesome/fontawesome.woff') format('woff'),
+    url('http://santex.github.io/cymatics/assets/fonts/fontawesome/awesome/fontawesome.ttf') format('truetype'),
+    url('http://santex.github.io/cymatics/assets/fonts/fontawesome/awesome/fontawesome.svg') format('svg');
   font-weight: normal;
   font-style: normal;
 } /* Made with http://icomoon.io/app */
